@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Mim - Meu Site Pessoal</title>
+
+  <!-- Font Awesome para os ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #252525;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #f1f1f1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #00bfa6;
+      margin-bottom: 15px;
+    }
+
+    p, ul, li {
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      color: #ccc;
+      text-align: center;
+      padding: 25px 10px;
+    }
+
+    footer a {
+      color: #00bfa6;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    footer a:hover {
+      color: #1de9b6;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Olá, eu sou Airton </h1>
+    <p>Bem-vindo ao meu espaço pessoal na web</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main class="container">
+
+    <section id="home">
+      <h2>Bem-vindo ao meu site pessoal!</h2>
+      <p>Sou Airton, uma pessoa apaixonada por Programação. Este site é um espaço para compartilhar minhas experiências, projetos, ideias e também um pouco sobre mim, meus hobbies e interesses.</p>
+      <p>Aqui, você vai conhecer mais sobre quem sou, o que gosto de fazer, meus projetos e muito mais. Sinta-se à vontade para explorar!</p>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou Airton, nasci e cresci em Aguas Lindas. Minha jornada no mundo da Programção começou com uma paixão por Computadores desde de pequeno sempre fui apaixonada por jogos é sempre tive curiosidade pela programação, desde então meu irmão começou a programar é despertou um interesse em mim e acabei seguindo a carreira que ele inicio. Com o tempo, me aprofundei cada vez mais é agora faço curso na Universidade da Católica.</p>
+      <p>Sou uma pessoa que valoriza Lealdade e confiança, e estou sempre em busca de novos desafios e aprendizados. Eu acredito que a vida é uma jornada constante de evolução e, por isso, estou sempre aberto a novas experiências e oportunidades.</p>
+    </section>
+
+    <section id="hobbies">
+      <h2>Meus Hobbies</h2>
+      <p>Quando não estou trabalhando ou estudando, gosto Fazer esportes ou Esportes eletrônicos:</p>
+      <ul>
+        <li>🏐 Vôlei </li>
+        <li>🎧 Música </li>
+        <li>🎮 Videogame </li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Fale Comigo</h2>
+      <p>Se você quiser saber mais sobre meus projetos, hobbies ou só bater um papo, fique à vontade para entrar em contato.</p>
+      <p>E-mail: airtonmartins2006@gmail.com</p>
+      <p>Instagram: <a href="https://instagram.com" target="_blank" style="color: #1de9b6;">@_martinsz7x_</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+    <a href="https://www.instagram.com/_martinsz7x_/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/5561995140390" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  </footer>
+
+</body>
+</html>
